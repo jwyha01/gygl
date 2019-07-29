@@ -1,0 +1,50 @@
+body {
+	font-family: Verdana, Geneva, '幼圆', sans-serif;
+}
+.header {
+	height:70px;
+	background-image: -moz-linear-gradient(top, #FFFFFF, #E8E8E8); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E8E8E8)); /* Saf4+, Chrome */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E8E8E8', GradientType='0'); /* IE*/
+}
+.logo {
+	float:left;
+	margin-top:10px;
+}
+.language {
+	float:right;
+	margin-top:20px;
+	color:#0053A2;
+}
+.home_main {
+	background:url(../images/home_bg.jpg) center center no-repeat;
+	background-size:cover;
+	min-height:800px;
+}
+
+
+
+
+
+
+
+.footer {
+	height:60px;
+	background-color:#0053A2;
+	color:#FFF;
+}
+.footer p {
+	margin:0;
+}
+.footer a {
+	color:#FFF;
+}
+.footer .pull-left {
+	margin-top:20px;
+}
+.footer .pull-right {
+	line-height:60px;
+}
+.footer .pull-right img {
+	margin-right:10px;
+}
